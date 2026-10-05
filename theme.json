@@ -1,8 +1,8 @@
 {
   "id": "small-sidebar-font",
   "name": "Small Sidebar Font",
-  "description": "Reduces tab text and sidebar font size",
+  "description": "Reduces tab text and sidebar font size including pinned tabs",
   "author": "Custom",
-  "version": "1.0.0",
-  "style": "zen-tab-item, zen-tab-item *, .tab-label, #zen-workspaces-button * { font-size: 11px !important; } zen-tab-item { min-height: 26px !important; max-height: 26px !important; }"
+  "version": "1.0.1",
+  "style": "zen-tab-item, zen-tab-item *, .tab-label, #zen-workspaces-button *, .zen-essentials-container *, #pinned-tabs-container *, .tabbrowser-tab[pinned] * { font-size: 10px !important; } zen-tab-item, .tabbrowser-tab[pinned] { min-height: 24px !important; max-height: 24px !important; }"
 }
