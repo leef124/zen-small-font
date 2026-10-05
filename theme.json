@@ -1,0 +1,8 @@
+{
+  "id": "small-sidebar-font",
+  "name": "Small Sidebar Font",
+  "description": "Reduces tab text and sidebar font size",
+  "author": "Custom",
+  "version": "1.0.0",
+  "style": "zen-tab-item, zen-tab-item *, .tab-label, #zen-workspaces-button * { font-size: 11px !important; } zen-tab-item { min-height: 26px !important; max-height: 26px !important; }"
+}
